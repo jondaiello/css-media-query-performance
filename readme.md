@@ -6,7 +6,8 @@ This repository is to document different methodologies of utilizing CSS @media q
 
 The HTML to be rendered will remain largely unchanged, however we may include CSS via a <style> for testing purposes. Content may also change to help example what methods are being tested.
 
-Methods for testing:
+Methodologies for testing:
+
 * All CSS in one file with media queries grouped together.
 * CSS files broken out into different media queries.
 * CSS inside <style> on the page
