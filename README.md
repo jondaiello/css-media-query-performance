@@ -13,4 +13,4 @@ The HTML to be rendered will remain largely unchanged, however we may include CS
 * CSS files broken out into different media queries.
 * CSS inside &lt;style&gt; element on the page
 
-The methods above will be tested utilizing min-width and max-width approaches.
+The methods above will be tested utilizing min-width (mobile first) and max-width approaches.
