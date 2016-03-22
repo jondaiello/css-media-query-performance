@@ -4,18 +4,28 @@
 
 h1,h2,h3,h4,h5,h6 {margin-top: 0;}
 
+* { box-sizing: border-box; }
+
 html {}
 
 body {
   font-family: 'Roboto', Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+a {
+  color: #303F9F;
+  transition: .2s color;
+}
+  a:hover {
+    color: #FF5252;
+  }
+
 header {
   display: block;
   width: 100%;
   background: #303F9F;
   color: #ffffff;
-  padding: .5em;
+  padding: 1em;
 }
 
   header ul {
@@ -26,6 +36,34 @@ header {
 
   header a {
     color: #fff;
+  }
+
+  header nav {
+    display: none;
+  }
+
+  header h1 {
+    margin-bottom: 0;
+  }
+
+main {
+  padding: 1em;
+}
+
+  .hero {
+    margin: -1em -1em 0;
+    padding: 15vh 1em;
+    background: #efefef;
+  }
+
+    .hero h1,
+    .hero p {
+      width: 100%;
+      display: block;
+    }
+
+  .overview {
+    padding: 1em 0;
   }
 
 @media (min-width:768px) {
